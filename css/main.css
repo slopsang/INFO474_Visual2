@@ -1,0 +1,72 @@
+/* main css file */
+
+p {
+    margin:0;
+    padding:0;
+    padding-left: 40px;
+}
+h4 {
+    display: inline-block;
+}
+.title {
+    padding-top: 15px;
+}
+.legend {
+    font-size: 12px;
+}
+.circle {
+    stroke-width: 2;
+}
+
+.axis line, .axis path {
+  fill: none;
+  stroke: #000;
+}
+
+.title {
+    text-anchor:middle;
+}
+
+.axis text {
+  font-size:10px;
+}
+
+.bar {
+  fill:green;
+  opacity:.4;
+}
+
+#tool2 {
+    margin-bottom: 200px;
+}
+/* color settings for words */
+.Baseball {
+    color: #C2C336;
+}
+.Basketball {
+    color: #6CBD6C;
+}
+.Boxing {
+    color: #63A0CB;
+}
+.Cricket {
+    color: #A6A6A6;
+}
+.Football {
+    color: #AF8981;
+}
+.Golf {
+    color: #E26869;
+}
+.Racing {
+    color: #EBA0D4;
+}
+.Soccer {
+    color: #FFA657;
+}
+.Tennis {
+    color: #B495D1;
+}
+.Track {
+    color: #5DD2DD;
+}

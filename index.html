@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport Finances</title>
+    <link rel="shortcut icon" type="image/png" href="img/bargraph.png">
+
+    <!-- Libraries -->
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- d3 library -->
+    <script src="js/d3.js"></script>
+    <!-- d3.regend library -->
+    <script src="js/d3.legend.js"></script>
+    <!-- jquery tipsy javascript library -->
+    <scrpt src="js/jquery.tipsy.js" type="text/javascript" charset="utf-8"></scrpt>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css"/>
+    <!-- Custom JavaScript -->
+    <script src="js/main.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="container">
+            <h1 class="title">Visualization Design #2</h1>
+            <p>University of Washington || INFO 474 - Spring 2016 || Sang Ouk Kim</p>
+        </div>
+        <hr>
+        <div class="container">
+            <h1>Global Sport Finances</h1>
+            <p>Visualization of average salary of Athletes based on the Annual Income and Endorsement.</p>
+            <p>USE one filter at a time in order to interact with the chart properly :)</p>
+        </div>
+        <hr>
+        <div class='controls'>
+            <div class='dropdown control'>
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select a Sport Type</button>
+                <ul id="tool" class="dropdown-menu"></ul>
+            </div>
+        </div>
+        <hr>
+        <div class='controls'>
+            <div class='dropdown control'>
+                <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">Select an Income Range</button>
+                <ul id="tool2" class="dropdown-menu"></ul>
+            </div>
+        </div>
+        <hr>
+        <h4 class='Baseball'>Baseball&nbsp;&nbsp;&nbsp;</h4>
+        <h4 class="Basketball">Basketball&nbsp;&nbsp;&nbsp;</h4>
+        <h4 class="Boxing">Boxing&nbsp;&nbsp;&nbsp;</h4>
+        <h4 class="Cricket">Cricket&nbsp;&nbsp;&nbsp;</h4>
+        <h4 class="Football">Football&nbsp;&nbsp;&nbsp;</h4>
+        <h4 class="Golf">Golf&nbsp;&nbsp;&nbsp;</h4>
+        <h4 class="Racing">Racing&nbsp;&nbsp;&nbsp;</h4>
+        <h4 class="Soccer">Soccer&nbsp;&nbsp;&nbsp;</h4>
+        <h4 class="Tennis">Tennis&nbsp;&nbsp;&nbsp;</h4>
+        <h4 class="Track">Track&nbsp;&nbsp;&nbsp;</h4>
+        <hr>
+        <div id="vis"></div>
+    </div>
+</body>
+</html>
