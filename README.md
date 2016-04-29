@@ -1,5 +1,5 @@
 # INFO474 Data Visualization Assignment #2
-
+<h2>Global Sport Finances</h2>
 <b>live site:</b> http://students.washington.edu/sangkim1/info474/INFO474_Visual2/
 
 In this assignment, I decided to use Global Sport Finances dataset in order to visually present average salary of Athletes based on their Annual Income and Endorsement.
